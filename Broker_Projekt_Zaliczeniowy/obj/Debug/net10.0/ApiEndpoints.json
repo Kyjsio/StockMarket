@@ -1,0 +1,308 @@
+[
+  {
+    "ContainingType": "Broker_Projekt_Zaliczeniowy.Controllers.AdminController",
+    "Method": "AddAsset",
+    "RelativePath": "api/Admin/add-asset",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Broker_Projekt_Zaliczeniowy.ModelsDto.AddAssetDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Broker_Projekt_Zaliczeniowy.Controllers.AdminController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Admin/delete-user/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Broker_Projekt_Zaliczeniowy.Controllers.AdminController",
+    "Method": "GetSystemStats",
+    "RelativePath": "api/Admin/reports/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Broker_Projekt_Zaliczeniowy.Controllers.AdminController",
+    "Method": "GetUsersReport",
+    "RelativePath": "api/Admin/reports/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Broker_Projekt_Zaliczeniowy.Controllers.AdminController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Admin/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Broker_Projekt_Zaliczeniowy.ModelsDto.UsersDataDto, Broker_Projekt_Zaliczeniowy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Broker_Projekt_Zaliczeniowy.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Broker_Projekt_Zaliczeniowy.ModelsDto.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Broker_Projekt_Zaliczeniowy.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Broker_Projekt_Zaliczeniowy.ModelsDto.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Projekt_Broker.Controllers.MarketController",
+    "Method": "GetAssets",
+    "RelativePath": "api/Market/assets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Projekt_Broker.Controllers.MarketController",
+    "Method": "GetHistory",
+    "RelativePath": "api/Market/history/{assetId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assetId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Projekt_Broker.Controllers.MarketController",
+    "Method": "UpdatePrices",
+    "RelativePath": "api/Market/update/{ticker}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticker",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Broker_Projekt_Zaliczeniowy.Controllers.PortfolioController",
+    "Method": "GetPortfolio",
+    "RelativePath": "api/Portfolio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Broker_Projekt_Zaliczeniowy.ModelsDto.PortfolioDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Broker_Projekt_Zaliczeniowy.Controllers.TransactionController",
+    "Method": "BuyStock",
+    "RelativePath": "api/Transaction/BuyStock",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Broker_Projekt_Zaliczeniowy.ModelsDto.TransactionRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Broker_Projekt_Zaliczeniowy.Controllers.TransactionController",
+    "Method": "GetPositionDetails",
+    "RelativePath": "api/Transaction/details/{ticker}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticker",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Broker_Projekt_Zaliczeniowy.ModelsDto.PositionDetailsViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Broker_Projekt_Zaliczeniowy.Controllers.TransactionController",
+    "Method": "GetClosedHistory",
+    "RelativePath": "api/Transaction/GetClosedHistory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Broker_Projekt_Zaliczeniowy.ModelsDto.StockTransactionDto, Broker_Projekt_Zaliczeniowy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Broker_Projekt_Zaliczeniowy.Controllers.TransactionController",
+    "Method": "SellStock",
+    "RelativePath": "api/Transaction/SellStock",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Broker_Projekt_Zaliczeniowy.ModelsDto.SellBatchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WalletController",
+    "Method": "GetPortfolio",
+    "RelativePath": "api/Wallet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WalletController",
+    "Method": "Deposit",
+    "RelativePath": "api/Wallet/deposit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Broker_Projekt_Zaliczeniowy.ModelsDto.BalanceUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WalletController",
+    "Method": "GetWalletHistory",
+    "RelativePath": "api/Wallet/history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Broker_Projekt_Zaliczeniowy.ModelsDto.WalletHistoryDto, Broker_Projekt_Zaliczeniowy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WalletController",
+    "Method": "Withdraw",
+    "RelativePath": "api/Wallet/withdraw",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Broker_Projekt_Zaliczeniowy.ModelsDto.BalanceUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

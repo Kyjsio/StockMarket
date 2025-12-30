@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Broker_Projekt_Zaliczeniowy/Broker_Projekt_Zaliczeniowy.csproj" />
+  <Project Path="Tests/Tests.csproj" Id="aa7f05b4-40b2-40d6-8521-e5715c623121" />
+</Solution>

@@ -1,0 +1,970 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\service\\buysellstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\service\\buysellstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\service\\getportfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\service\\getportfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\service\\positionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\service\\positionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\modelsdto\\addassetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\modelsdto\\addassetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\modelsdto\\transactionresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\modelsdto\\transactionresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\service\\importjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\service\\importjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\controllers\\marketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\controllers\\marketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\api\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\api\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\CleanCharge Optimizer\\CleanCharge Optimizer\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\models\\marketdatum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\models\\marketdatum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\models\\walletlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\models\\walletlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\models\\projektbdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\models\\projektbdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\modelsdto\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\modelsdto\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\modelsdto\\adminreportsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\modelsdto\\adminreportsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\modelsdto\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\modelsdto\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\service\\getuserid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\service\\getuserid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\modelsdto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\modelsdto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\modelsdto\\walletlogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\modelsdto\\walletlogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\modelsdto\\usersdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\modelsdto\\usersdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\modelsdto\\portfel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\modelsdto\\portfel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\broker_projekt_zaliczeniowy\\modelsdto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416184CD-6C52-0222-934D-EC05CEFDF28C}|Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy.csproj|solutionrelative:broker_projekt_zaliczeniowy\\modelsdto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA7F05B4-40B2-40D6-8521-E5715C623121}|Tests\\Tests.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\tests\\transactioncontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7F05B4-40B2-40D6-8521-E5715C623121}|Tests\\Tests.csproj|solutionrelative:tests\\transactioncontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA7F05B4-40B2-40D6-8521-E5715C623121}|Tests\\Tests.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\tests\\portfelcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7F05B4-40B2-40D6-8521-E5715C623121}|Tests\\Tests.csproj|solutionrelative:tests\\portfelcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA7F05B4-40B2-40D6-8521-E5715C623121}|Tests\\Tests.csproj|c:\\users\\dinok\\source\\repos\\broker_projekt_zaliczeniowy\\tests\\admincontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7F05B4-40B2-40D6-8521-E5715C623121}|Tests\\Tests.csproj|solutionrelative:tests\\admincontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\components\\Navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\components\\Navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\components\\Navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\components\\Navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\AdminReports.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\Pages\\AdminReports.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\Pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\AdminUsers.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\Pages\\AdminUsers.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\AdminDashboardPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\Pages\\AdminDashboardPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\Market.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\Pages\\Market.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\Portfolio.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\Pages\\Portfolio.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\PositionDetails.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\Pages\\PositionDetails.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\PositionsPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\Pages\\PositionsPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\TransactionHistory.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\Pages\\TransactionHistory.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\WalletHistory.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\Pages\\WalletHistory.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\AuthPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\Pages\\AuthPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\components\\TransactionModal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\components\\TransactionModal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\AdminDashboardPage.jsx||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\Pages\\AdminDashboardPage.jsx||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend_broker\\src\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetPortfolioService.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Service\\GetPortfolioService.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Service\\GetPortfolioService.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Service\\GetPortfolioService.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Service\\GetPortfolioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T18:43:01.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T14:32:24.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ImportJson.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Service\\ImportJson.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Service\\ImportJson.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Service\\ImportJson.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Service\\ImportJson.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T19:00:16.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PositionService.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Service\\PositionService.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Service\\PositionService.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Service\\PositionService.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Service\\PositionService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwE0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T16:04:56.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuySellStock.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Service\\BuySellStock.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Service\\BuySellStock.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Service\\BuySellStock.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Service\\BuySellStock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T18:52:21.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransactionResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\TransactionResultDto.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\TransactionResultDto.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\TransactionResultDto.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\TransactionResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T18:54:20.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PortfolioController.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Controllers\\PortfolioController.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Controllers\\PortfolioController.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Controllers\\PortfolioController.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Controllers\\PortfolioController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAArwCAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T14:32:24.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddAssetDto.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\AddAssetDto.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\AddAssetDto.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\AddAssetDto.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\AddAssetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T20:12:45.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T14:32:21.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MarketController.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Controllers\\MarketController.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Controllers\\MarketController.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Controllers\\MarketController.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Controllers\\MarketController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wDUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T14:32:22.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T14:32:20.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Program.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Program.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Program.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T12:50:12.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Models\\Transaction.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T10:43:59.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WalletController.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Controllers\\WalletController.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Controllers\\WalletController.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Controllers\\WalletController.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Controllers\\WalletController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAgwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T14:32:25.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Service\\AuthService.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Service\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T20:13:13.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "api.js",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\api\\api.js",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\api\\api.js",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\api\\api.js",
+              "RelativeToolTip": "frontend_broker\\src\\api\\api.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAIEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-15T14:32:30.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AdminUsers.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\AdminUsers.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\Pages\\AdminUsers.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\AdminUsers.jsx",
+              "RelativeToolTip": "frontend_broker\\src\\Pages\\AdminUsers.jsx",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-10T13:15:37.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Home.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\Home.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\Pages\\Home.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\Home.jsx",
+              "RelativeToolTip": "frontend_broker\\src\\Pages\\Home.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-07T11:12:29.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Asset.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Models\\Asset.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Models\\Asset.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Models\\Asset.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Models\\Asset.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T10:43:44.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\appsettings.json",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\appsettings.json",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\appsettings.json",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-16T20:13:28.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AdminReports.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\AdminReports.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\Pages\\AdminReports.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\AdminReports.jsx",
+              "RelativeToolTip": "frontend_broker\\src\\Pages\\AdminReports.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-12T12:51:27.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Navbar.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\components\\Navbar.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\components\\Navbar.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\components\\Navbar.jsx",
+              "RelativeToolTip": "frontend_broker\\src\\components\\Navbar.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T14:26:07.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\App.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\App.jsx",
+              "RelativeToolTip": "frontend_broker\\src\\App.jsx",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-03T13:30:55.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\CleanCharge Optimizer\\CleanCharge Optimizer\\Dockerfile",
+              "RelativeDocumentMoniker": "..\\CleanCharge Optimizer\\CleanCharge Optimizer\\Dockerfile",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\CleanCharge Optimizer\\CleanCharge Optimizer\\Dockerfile",
+              "RelativeToolTip": "..\\CleanCharge Optimizer\\CleanCharge Optimizer\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-19T16:49:52.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Models\\Account.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Models\\Account.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Models\\Account.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T10:43:37.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MarketDatum.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Models\\MarketDatum.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Models\\MarketDatum.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Models\\MarketDatum.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Models\\MarketDatum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T15:33:44.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Models\\Position.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Models\\Position.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Models\\Position.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Models\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T14:55:19.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WalletLog.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Models\\WalletLog.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Models\\WalletLog.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Models\\WalletLog.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Models\\WalletLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T14:22:39.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Models\\User.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T16:27:54.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProjektBdContext.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Models\\ProjektBdContext.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Models\\ProjektBdContext.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Models\\ProjektBdContext.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Models\\ProjektBdContext.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAiwLwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T13:13:54.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TransactionDto.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\TransactionDto.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\TransactionDto.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\TransactionDto.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\TransactionDto.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA9wDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T14:46:11.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AdminReportsDto.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\AdminReportsDto.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\AdminReportsDto.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\AdminReportsDto.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\AdminReportsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T15:37:01.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Auth.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\Auth.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\Auth.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\Auth.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\Auth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T19:55:17.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GetUserID.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Service\\GetUserID.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\Service\\GetUserID.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\Service\\GetUserID.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\Service\\GetUserID.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T14:44:56.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\RegisterDto.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T15:33:55.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UsersDataDto.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\UsersDataDto.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\UsersDataDto.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\UsersDataDto.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\UsersDataDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T14:46:10.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "WalletLogDto.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\WalletLogDto.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\WalletLogDto.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\WalletLogDto.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\WalletLogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T15:33:47.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Portfel.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\Portfel.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\Portfel.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\Portfel.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\Portfel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T20:12:58.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Broker_Projekt_Zaliczeniowy\\ModelsDTO\\LoginDto.cs",
+              "RelativeToolTip": "Broker_Projekt_Zaliczeniowy\\ModelsDTO\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T13:09:32.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TransactionControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Tests\\TransactionControllerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\TransactionControllerTests.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Tests\\TransactionControllerTests.cs",
+              "RelativeToolTip": "Tests\\TransactionControllerTests.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAowAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T19:44:54.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AdminControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Tests\\AdminControllerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\AdminControllerTests.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Tests\\AdminControllerTests.cs",
+              "RelativeToolTip": "Tests\\AdminControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T19:39:20.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PortfelControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Tests\\PortfelControllerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\PortfelControllerTests.cs",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\Tests\\PortfelControllerTests.cs",
+              "RelativeToolTip": "Tests\\PortfelControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T18:49:13.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AdminDashboardPage.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\AdminDashboardPage.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\Pages\\AdminDashboardPage.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\AdminDashboardPage.jsx",
+              "RelativeToolTip": "frontend_broker\\src\\Pages\\AdminDashboardPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-10T12:07:10.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Market.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\Market.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\Pages\\Market.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\Market.jsx",
+              "RelativeToolTip": "frontend_broker\\src\\Pages\\Market.jsx",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAmwFEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-05T10:35:12.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Portfolio.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\Portfolio.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\Pages\\Portfolio.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\Portfolio.jsx",
+              "RelativeToolTip": "frontend_broker\\src\\Pages\\Portfolio.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-07T10:47:32.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PositionDetails.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\PositionDetails.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\Pages\\PositionDetails.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\PositionDetails.jsx",
+              "RelativeToolTip": "frontend_broker\\src\\Pages\\PositionDetails.jsx",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-15T14:47:07.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PositionsPage.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\PositionsPage.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\Pages\\PositionsPage.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\PositionsPage.jsx",
+              "RelativeToolTip": "frontend_broker\\src\\Pages\\PositionsPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T15:00:39.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "TransactionHistory.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\TransactionHistory.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\Pages\\TransactionHistory.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\TransactionHistory.jsx",
+              "RelativeToolTip": "frontend_broker\\src\\Pages\\TransactionHistory.jsx",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAABwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T16:56:59.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "WalletHistory.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\WalletHistory.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\Pages\\WalletHistory.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\WalletHistory.jsx",
+              "RelativeToolTip": "frontend_broker\\src\\Pages\\WalletHistory.jsx",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGQAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T17:09:02.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AuthPage.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\AuthPage.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\Pages\\AuthPage.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\AuthPage.jsx",
+              "RelativeToolTip": "frontend_broker\\src\\Pages\\AuthPage.jsx",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwCEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-07T09:39:03.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "TransactionModal.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\components\\TransactionModal.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\components\\TransactionModal.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\components\\TransactionModal.jsx",
+              "RelativeToolTip": "frontend_broker\\src\\components\\TransactionModal.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T15:40:47.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "eslint.config.js",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\eslint.config.js",
+              "RelativeDocumentMoniker": "frontend_broker\\eslint.config.js",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\eslint.config.js",
+              "RelativeToolTip": "frontend_broker\\eslint.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-13T17:51:57.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\main.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\main.jsx",
+              "RelativeToolTip": "frontend_broker\\src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-10T14:37:50.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\index.html",
+              "RelativeDocumentMoniker": "frontend_broker\\index.html",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\index.html",
+              "RelativeToolTip": "frontend_broker\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-12-10T14:39:07.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\index.css",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\index.css",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\index.css",
+              "RelativeToolTip": "frontend_broker\\src\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-10T14:27:51.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "AdminDashboardPage.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\AdminDashboardPage.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\Pages\\AdminDashboardPage.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\Pages\\AdminDashboardPage.jsx",
+              "RelativeToolTip": "frontend_broker\\src\\Pages\\AdminDashboardPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwIIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-10T11:37:50.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\App.css",
+              "RelativeDocumentMoniker": "frontend_broker\\src\\App.css",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\src\\App.css",
+              "RelativeToolTip": "frontend_broker\\src\\App.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-05T09:33:27.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Navbar.jsx",
+              "DocumentMoniker": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\components\\Navbar.jsx",
+              "RelativeDocumentMoniker": "frontend_broker\\components\\Navbar.jsx",
+              "ToolTip": "C:\\Users\\DinoK\\source\\repos\\Broker_Projekt_Zaliczeniowy\\frontend_broker\\components\\Navbar.jsx",
+              "RelativeToolTip": "frontend_broker\\components\\Navbar.jsx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-07T11:10:11.372Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
