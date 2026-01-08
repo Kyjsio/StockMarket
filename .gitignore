@@ -1,36 +1,20 @@
-
+# --- C# / .NET ---
 [Bb]in/
 [Oo]bj/
-
-
 .vs/
 *.user
 *.suo
-*.userosscache
-*.slnhistory
 
-
-
-
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-
+# --- REACT / JS ---
 node_modules/
 dist/
-dist-ssr/
 build/
 *.local
+logs
+*.log
 
-# --- IDE i System ---
-.vscode/*
-!.vscode/extensions.json
-.idea
+# --- System ---
 .DS_Store
 Thumbs.db
+.vscode/*
+!.vscode/extensions.json
