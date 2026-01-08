@@ -43,7 +43,8 @@ Projekt realizuje zaawansowaną logikę biznesową (obliczanie średniej ceny za
  <img width="1785" height="852" alt="image" src="https://github.com/user-attachments/assets/2dbf43b4-2f5d-4ab0-bba0-9957fb545436" />
 
 * **Zarządzanie Użytkownikami:** Podgląd listy inwestorów, usuwanie kont.
- <img width="1706" height="631" alt="image" src="https://github.com/user-attachments/assets/4359210b-2252-4aed-8cf9-72a32651e65f" />
+<img width="1666" height="362" alt="image" src="https://github.com/user-attachments/assets/28e87d0b-970f-4460-9826-b84158c3a2f7" />
+
 
 * **Raportowanie:** Generowanie raportów statystycznych z wykorzystaniem **Procedur Składowanych SQL** (np. `sp_GetSystemStats`, `sp_GetAdminUserReport`).
 <img width="1628" height="287" alt="image" src="https://github.com/user-attachments/assets/f5cda13e-d267-4239-a663-e4430dc6aeb4" />
