@@ -6,7 +6,7 @@ const AdminUsers = () => {
     const [loading, setLoading] = useState(true);
     const [, setError] = useState('');
 
-    useEffect(() => ;
+    useEffect(() => {
         loadUsers();
     }, []);
 
@@ -91,7 +91,7 @@ const AdminUsers = () => {
                                             <td className="text-muted small">{formatDate(user.createdAt)}</td>
                                             <td className="text-end">
                                                 <span className={`badge rounded-pill ${user.balance >= 0 ? 'bg-success bg-opacity-10 text-success' : 'bg-danger bg-opacity-10 text-danger'} px-3 py-2 border border-${user.balance >= 0 ? 'success' : 'danger'}`}>
-                                                    {user.balance.toFixed(2)} PLN
+                                                    {user.balance.toFixed(2)} USD
                                                 </span>
                                             </td>
                                             <td className="pe-4 text-end">
