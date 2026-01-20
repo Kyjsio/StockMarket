@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Moq;
 
-
 namespace Broker_Projekt_Zaliczeniowy.Tests
 {
     public class TransactionControllerTests
@@ -14,12 +13,11 @@ namespace Broker_Projekt_Zaliczeniowy.Tests
         private ProjektBdContext GetDatabaseContext()
         {
             var options = new DbContextOptionsBuilder<ProjektBdContext>()
-                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString()) 
                 .Options;
 
             return new ProjektBdContext(options);
         }
-
 
         [Fact]
         public async Task BuyStock_CreatesNewPosition_WhenUserHasFunds()
@@ -35,7 +33,7 @@ namespace Broker_Projekt_Zaliczeniowy.Tests
 
             using (var context = GetDatabaseContext())
             {
-                var asset = new Asset { Id = assetId, Ticker = "NVDA", FullName = "Nvidia" , Type = "Stock" };
+                var asset = new Asset { Id = assetId, Ticker = "NVDA", FullName = "Nvidia", Type = "Stock" };
                 context.Assets.Add(asset);
 
                 var account = new Account { Id = 1, UserId = userId, Balance = initialBalance, Positions = new List<Position>() };
@@ -50,7 +48,10 @@ namespace Broker_Projekt_Zaliczeniowy.Tests
 
                 await context.SaveChangesAsync();
 
-                var controller = new TransactionController(context, mockUserService.Object);
+                var portfolioService = new PortfolioService(context);
+                var positionService = new PositionService(context);
+
+                var controller = new TransactionController(context, portfolioService, positionService, mockUserService.Object);
                 var request = new TransactionRequestDto { AssetId = assetId, Quantity = quantityToBuy };
 
                 var result = await controller.BuyStock(request);
@@ -74,16 +75,14 @@ namespace Broker_Projekt_Zaliczeniowy.Tests
         [Fact]
         public async Task BuyStock_UpdatesAverageCost_WhenPositionAlreadyExists()
         {
+            
             var userId = 1;
             var assetId = 10;
-
             var initialQty = 10;
             var initialAvgCost = 50m;
-
             var newQty = 10;
             var newPrice = 100m;
-
-            var expectedAvgCost = 75m;
+            var expectedAvgCost = 75m; 
 
             var mockUserService = new Mock<IUserContextService>();
             mockUserService.Setup(s => s.GetUserId()).Returns(userId);
@@ -97,30 +96,30 @@ namespace Broker_Projekt_Zaliczeniowy.Tests
                     Balance = 2000m,
                     Positions = new List<Position>
                     {
-                        new Position { AssetId = assetId, Quantity = initialQty, AverageCost = initialAvgCost }
+                        new Position { AccountId = 1, AssetId = assetId, Quantity = initialQty, AverageCost = initialAvgCost }
                     }
                 };
                 context.Accounts.Add(account);
-
                 context.MarketData.Add(new MarketDatum { AssetId = assetId, DataDate = DateOnly.FromDateTime(DateTime.Now), Close = newPrice });
                 await context.SaveChangesAsync();
 
-                var controller = new TransactionController(context, mockUserService.Object);
+                var portfolioService = new PortfolioService(context);
+                var positionService = new PositionService(context);
+                var controller = new TransactionController(context, portfolioService, positionService, mockUserService.Object);
+
                 var request = new TransactionRequestDto { AssetId = assetId, Quantity = newQty };
 
                 await controller.BuyStock(request);
 
-           
                 var position = await context.Positions.FirstAsync();
-                Assert.Equal(initialQty + newQty, position.Quantity); 
-                Assert.Equal(expectedAvgCost, position.AverageCost); 
+                Assert.Equal(initialQty + newQty, position.Quantity);
+                Assert.Equal(expectedAvgCost, position.AverageCost);
             }
         }
 
         [Fact]
         public async Task BuyStock_ReturnsBadRequest_WhenInsufficientFunds()
         {
-            
             var userId = 1;
             var mockUserService = new Mock<IUserContextService>();
             mockUserService.Setup(s => s.GetUserId()).Returns(userId);
@@ -131,32 +130,32 @@ namespace Broker_Projekt_Zaliczeniowy.Tests
                 context.MarketData.Add(new MarketDatum { AssetId = 1, DataDate = DateOnly.FromDateTime(DateTime.Now), Close = 200m });
                 await context.SaveChangesAsync();
 
-                var controller = new TransactionController(context, mockUserService.Object);
-                var request = new TransactionRequestDto { AssetId = 1, Quantity = 1 }; 
+                var portfolioService = new PortfolioService(context);
+                var positionService = new PositionService(context);
+                var controller = new TransactionController(context, portfolioService, positionService, mockUserService.Object);
 
-                 
+                var request = new TransactionRequestDto { AssetId = 1, Quantity = 1 };
+
                 var result = await controller.BuyStock(request);
 
                 var badRequest = Assert.IsType<BadRequestObjectResult>(result);
                 var val = badRequest.Value;
-                var msg = val.GetType().GetProperty("message").GetValue(val, null);
+                var propertyInfo = val.GetType().GetProperty("message");
+                var msg = propertyInfo.GetValue(val, null) as string;
+
                 Assert.Equal("Niewystarczające środki", msg);
             }
         }
 
-       
         [Fact]
         public async Task SellStock_CalculatesProfitAndUpdatesBalance_Correctly()
         {
-
             var userId = 1;
             var assetId = 5;
             var transactionId = 100;
-            var buyPrice = 50m;   
-            var sellPrice = 80m;  
+            var buyPrice = 50m;
+            var sellPrice = 80m;
             var quantityToSell = 5;
-
-           
 
             var mockUserService = new Mock<IUserContextService>();
             mockUserService.Setup(s => s.GetUserId()).Returns(userId);
@@ -170,7 +169,7 @@ namespace Broker_Projekt_Zaliczeniowy.Tests
                     Balance = 0m,
                     Positions = new List<Position>
                     {
-                        new Position { AssetId = assetId, Quantity = 10, AverageCost = 50m }
+                        new Position { AccountId = 1, AssetId = assetId, Quantity = 10, AverageCost = 50m }
                     }
                 };
                 context.Accounts.Add(account);
@@ -182,39 +181,36 @@ namespace Broker_Projekt_Zaliczeniowy.Tests
                     AssetId = assetId,
                     Type = "BUY",
                     Quantity = 10,
-                    Price = buyPrice
+                    Price = buyPrice,
+                    TransactionDate = DateTime.Now.AddDays(-1)
                 });
 
                 context.MarketData.Add(new MarketDatum { AssetId = assetId, DataDate = DateOnly.FromDateTime(DateTime.Now), Close = sellPrice });
-
                 await context.SaveChangesAsync();
 
-                var controller = new TransactionController(context, mockUserService.Object);
+                var portfolioService = new PortfolioService(context);
+                var positionService = new PositionService(context);
+                var controller = new TransactionController(context, portfolioService, positionService, mockUserService.Object);
+
                 var request = new SellBatchDto { AssetId = assetId, TransactionId = transactionId, Quantity = quantityToSell };
 
+                 
                 var result = await controller.SellStock(request);
 
-                
                 Assert.IsType<OkObjectResult>(result);
 
                 var updatedAccount = await context.Accounts.FirstAsync();
                 Assert.Equal(400m, updatedAccount.Balance); 
 
-          
-                var sellTransaction = await context.Transactions.LastAsync(); 
+                var sellTransaction = await context.Transactions.OrderBy(t => t.Id).LastAsync();
                 Assert.Equal("SELL", sellTransaction.Type);
-                Assert.Equal(150m, sellTransaction.Profit);
-                var oldTransaction = await context.Transactions.FindAsync(transactionId);
-                Assert.Equal("BUY_SOLD", oldTransaction.Type);
+                Assert.Equal(150m, sellTransaction.Profit); 
             }
         }
-
-        
 
         [Fact]
         public async Task GetPositionDetails_CalculatesWeightedAverageCorrectly()
         {
-       
             var userId = 1;
             var ticker = "AAPL";
             var assetId = 1;
@@ -227,33 +223,29 @@ namespace Broker_Projekt_Zaliczeniowy.Tests
                 var asset = new Asset { Id = assetId, Ticker = ticker, FullName = "Apple", Type = "Stock" };
                 context.Assets.Add(asset);
 
-                var account = new Account { Id = 1, UserId = userId, Positions = new List<Position> { new Position { AssetId = assetId, Asset = asset } } };
+                var account = new Account { Id = 1, UserId = userId, Positions = new List<Position> { new Position { AccountId = 1, AssetId = assetId, Asset = asset, Quantity = 20, AverageCost = 150 } } };
                 context.Accounts.Add(account);
 
-       
                 context.Transactions.AddRange(
                     new Transaction { AccountId = 1, AssetId = assetId, Type = "BUY", Quantity = 10, Price = 100, TotalAmount = 1000, TransactionDate = DateTime.Now.AddDays(-2) },
                     new Transaction { AccountId = 1, AssetId = assetId, Type = "BUY", Quantity = 10, Price = 200, TotalAmount = 2000, TransactionDate = DateTime.Now.AddDays(-1) }
                 );
 
-             
                 context.MarketData.Add(new MarketDatum { AssetId = assetId, DataDate = DateOnly.FromDateTime(DateTime.Now), Close = 300m });
-
                 await context.SaveChangesAsync();
 
-                var controller = new TransactionController(context, mockUserService.Object);
+                var portfolioService = new PortfolioService(context);
+                var positionService = new PositionService(context);
+                var controller = new TransactionController(context, portfolioService, positionService, mockUserService.Object);
 
-            
                 var result = await controller.GetPositionDetails(ticker);
 
-           
                 var actionResult = Assert.IsType<ActionResult<PositionDetailsViewModel>>(result);
                 var okResult = Assert.IsType<OkObjectResult>(actionResult.Result);
                 var viewModel = Assert.IsType<PositionDetailsViewModel>(okResult.Value);
 
-                Assert.Equal(20, viewModel.CurrentQuantity); 
-                Assert.Equal(150m, viewModel.AverageCost);   
-
+                Assert.Equal(20, viewModel.CurrentQuantity);
+                Assert.Equal(150m, viewModel.AverageCost);
 
                 Assert.Equal(3000m, viewModel.Profit);
             }

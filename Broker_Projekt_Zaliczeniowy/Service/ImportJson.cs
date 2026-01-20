@@ -29,7 +29,7 @@ namespace Broker_Projekt_Zaliczeniowy.Services
 
             try
             {
-                var response = await _httpClient.GetAsync(queryUrl);
+                var response = await _httpClient.GetAsync(queryUrl);   
                 var json = await response.Content.ReadAsStringAsync();
 
                 using (JsonDocument doc = JsonDocument.Parse(json))
@@ -83,7 +83,7 @@ namespace Broker_Projekt_Zaliczeniowy.Services
                         }
                         else
                         {
-                            return null; // Brak nowych danych to nie błąd
+                            return null; 
                         }
                     }
                     else

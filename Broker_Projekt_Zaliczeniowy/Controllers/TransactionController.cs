@@ -72,12 +72,9 @@ namespace Broker_Projekt_Zaliczeniowy.Controllers
                 }
                 catch (KeyNotFoundException ex)
                 {
-                    return NotFound(new { message = ex.Message });
+                    return NotFound(new { message = "Nieznalezione akcji" });
                 }
-                catch (InvalidOperationException ex)
-                {
-                    return BadRequest(new { message = ex.Message });
-                }
+
                 catch (Exception ex)
                 {
                     return StatusCode(500, new { message = "Wystąpił błąd serwera.", details = ex.Message });

@@ -67,7 +67,6 @@ builder.Services.AddSwaggerGen(option =>
     option.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         In = ParameterLocation.Header,
-        Description = "Wpisz token w formacie: Bearer {twoj_token}",
         Name = "Authorization",
         Type = SecuritySchemeType.Http,
         BearerFormat = "JWT",

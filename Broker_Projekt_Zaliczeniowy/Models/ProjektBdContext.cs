@@ -114,7 +114,7 @@ public partial class ProjektBdContext : DbContext
 
         modelBuilder.Entity<Transaction>(entity =>
         {
-            entity.ToTable(tb => tb.HasTrigger("trg_LogTransactionAction"));
+            entity.ToTable(tb => tb.HasTrigger("trg_WalletAudit"));
             entity.HasKey(e => e.Id).HasName("PK__Transact__3214EC074F8E3788");
 
             entity.Property(e => e.Price).HasColumnType("decimal(18, 4)");

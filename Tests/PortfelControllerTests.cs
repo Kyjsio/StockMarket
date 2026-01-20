@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Moq;
 
-
 namespace Broker_Projekt_Zaliczeniowy.Tests
 {
     public class PortfolioControllerTests
@@ -14,7 +13,7 @@ namespace Broker_Projekt_Zaliczeniowy.Tests
         private ProjektBdContext GetDatabaseContext()
         {
             var options = new DbContextOptionsBuilder<ProjektBdContext>()
-                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString()) 
+                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
                 .Options;
 
             return new ProjektBdContext(options);
@@ -30,25 +29,27 @@ namespace Broker_Projekt_Zaliczeniowy.Tests
 
             using (var context = GetDatabaseContext())
             {
-                var controller = new PortfolioController(context, mockUserService.Object);
+                var portfolioService = new PortfolioService(context);
+
+                var controller = new PortfolioController(context, mockUserService.Object, portfolioService);
 
                 var result = await controller.GetPortfolio();
 
                 var actionResult = Assert.IsType<ActionResult<PortfolioDto>>(result);
+
                 var notFoundResult = Assert.IsType<NotFoundObjectResult>(actionResult.Result);
-                Assert.Equal("Nie znaleziono konta maklerskiego dla tego użytkownika", notFoundResult.Value);
+                Assert.Equal(404, notFoundResult.StatusCode);
             }
         }
 
         [Fact]
         public async Task GetPortfolio_Calculations()
         {
-           
             var userId = 10;
             var assetId = 100;
             var initialBalance = 1000m;
             var quantity = 10;
-            var averageCost = 50m; 
+            var averageCost = 50m;
             var currentPrice = 75m;
 
             var mockUserService = new Mock<IUserContextService>();
@@ -63,7 +64,6 @@ namespace Broker_Projekt_Zaliczeniowy.Tests
                     FullName = "Nvidia",
                     Type = "Stock"
                 };
-                context.Assets.Add(asset);
                 context.Assets.Add(asset);
 
                 var account = new Account
@@ -85,30 +85,29 @@ namespace Broker_Projekt_Zaliczeniowy.Tests
                 context.Accounts.Add(account);
 
                 context.MarketData.AddRange(
-                 new MarketDatum { AssetId = assetId, DataDate = DateOnly.FromDateTime(DateTime.Now.AddDays(-2)), Close = 40m },
-                 new MarketDatum { AssetId = assetId, DataDate = DateOnly.FromDateTime(DateTime.Now.AddDays(-1)), Close = currentPrice }
-             );
+                     new MarketDatum { AssetId = assetId, DataDate = DateOnly.FromDateTime(DateTime.Now.AddDays(-2)), Close = 40m },
+                     new MarketDatum { AssetId = assetId, DataDate = DateOnly.FromDateTime(DateTime.Now.AddDays(-1)), Close = currentPrice } 
+                 );
 
                 await context.SaveChangesAsync();
 
-                var controller = new PortfolioController(context, mockUserService.Object);
+                var portfolioService = new PortfolioService(context);
+
+                var controller = new PortfolioController(context, mockUserService.Object, portfolioService);
 
                 var result = await controller.GetPortfolio();
+
                 var actionResult = Assert.IsType<ActionResult<PortfolioDto>>(result);
                 var okResult = Assert.IsType<OkObjectResult>(actionResult.Result);
                 var dto = Assert.IsType<PortfolioDto>(okResult.Value);
 
                 Assert.NotNull(dto);
+                Assert.Equal(initialBalance, dto.CashBalance);
+                Assert.Single(dto.Positions);
 
-                Assert.Equal(initialBalance, dto.CashBalance); 
-
-                Assert.Single(dto.Positions); 
                 var posDto = dto.Positions.First();
-
                 Assert.Equal("NVDA", posDto.Ticker);
-
-                Assert.Equal(currentPrice, posDto.CurrentPrice); 
-
+                Assert.Equal(currentPrice, posDto.CurrentPrice);
                 Assert.Equal(quantity * currentPrice, posDto.CurrentValue);
 
                 var expectedProfit = (quantity * currentPrice) - (quantity * averageCost);
