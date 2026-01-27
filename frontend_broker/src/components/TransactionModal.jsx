@@ -24,7 +24,7 @@ const TransactionModal = ({ isOpen, onClose, type, onConfirm, loading, error }) 
                         <input
                             type="number"
                             step="0.01"
-                            min="0.01"
+                            min="1"
                             required
                             className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                             value={amount}
@@ -34,7 +34,7 @@ const TransactionModal = ({ isOpen, onClose, type, onConfirm, loading, error }) 
                     </div>
 
                     {error && (
-                        <div className="mb-4 p-2 bg-red-50 text-red-600 text-sm rounded border border-red-200">
+                        <div className="alert alert-danger mb-3 p-2 text-sm">
                             {error}
                         </div>
                     )}
@@ -43,20 +43,17 @@ const TransactionModal = ({ isOpen, onClose, type, onConfirm, loading, error }) 
                         <button
                             type="button"
                             onClick={onClose}
-                            className="px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-md transition-colors"
+                            className="btn btn-secondary fw-bold text-white"
                             disabled={loading}
                         >
                             Anuluj
                         </button>
                         <button
                             type="submit"
-                            className={`px-4 py-2 rounded-md text-white font-medium transition-colors ${type === 'deposit'
-                                    ? 'bg-green-600 hover:bg-green-700'
-                                    : 'bg-red-600 hover:bg-red-700'
-                                } ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
-                            disabled={loading}
-                        >
-                            {loading ? 'Przetwarzanie...' : (type === 'deposit' ? 'Wpłać' : 'Wypłać')}
+                            className="btn btn-danger fw-bold text-white"
+
+                            >
+                            {loading ? '...' : (type === 'deposit' ? 'Wpłać' : 'Wypłać')}
                         </button>
                     </div>
                 </form>

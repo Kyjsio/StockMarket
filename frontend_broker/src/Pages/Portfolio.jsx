@@ -52,7 +52,12 @@ const PortfolioPage = () => {
             setLoading(true);
             await fetchPortfolio();
         } catch (err) {
-            setTransactionError(err.response.data || err.message);
+            if (err.response && err.response.data && err.response.data.message) {
+                setTransactionError(err.response.data.message);
+            }
+            else {
+                setTransactionError(err.message || 'Wystąpił nieoczekiwany błąd');
+            }
         } finally {
             setTransactionLoading(false);
         }

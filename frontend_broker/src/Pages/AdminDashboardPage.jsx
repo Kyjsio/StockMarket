@@ -113,7 +113,7 @@ const AdminDashboardPage = () => {
                                         name="ticker"
                                         value={formData.ticker}
                                         onChange={handleChange}
-                                        placeholder="np. AAPL"
+                                        placeholder="np. TSCO.LON"
                                         className="form-control form-control-lg text-uppercase font-monospace"
                                         required
                                         maxLength={10}
@@ -128,7 +128,7 @@ const AdminDashboardPage = () => {
                                         name="fullName"
                                         value={formData.fullName}
                                         onChange={handleChange}
-                                        placeholder="np. Apple Inc."
+                                        placeholder="np. Tesco "
                                         className="form-control form-control-lg"
                                         required
                                     />

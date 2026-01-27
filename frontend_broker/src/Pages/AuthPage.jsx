@@ -44,7 +44,7 @@ const AuthPage = () => {
                 setFormData(prev => ({ ...prev, password: '' }));
             }
         } catch (error) {
-            console.error(error);
+            //console.error(error);
             setMessage({ text: error.message || 'Wystąpił błąd', type: 'error' });
         } finally {
             setLoading(false);
