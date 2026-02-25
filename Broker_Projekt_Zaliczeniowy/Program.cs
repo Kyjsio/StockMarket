@@ -38,7 +38,7 @@ builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<PositionService>();
 builder.Services.AddScoped<IUserContextService, UserContextService>();
 builder.Services.AddHttpClient<MarketDataService>();
-
+builder.Services.AddScoped<IAdminService, AdminService>();
 
 builder.Services.AddAuthentication(options =>
 {
