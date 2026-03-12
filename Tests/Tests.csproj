@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Broker_Projekt_Zaliczeniowy\Broker_Projekt_Zaliczeniowy.csproj" />
+    <ProjectReference Include="..\StockMarketBackend\StockMarketBackend.csproj" />
   </ItemGroup>
 
 </Project>

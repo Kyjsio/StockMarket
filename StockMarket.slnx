@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="StockMarketBackend/StockMarketBackend.csproj" />
+  <Project Path="frontend_broker/frontend_broker.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="Tests/Tests.csproj" />
+</Solution>

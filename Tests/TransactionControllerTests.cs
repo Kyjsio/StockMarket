@@ -1,12 +1,12 @@
-﻿using Broker_Projekt_Zaliczeniowy.Controllers;
-using Broker_Projekt_Zaliczeniowy.Models;
-using Broker_Projekt_Zaliczeniowy.ModelsDto;
-using Broker_Projekt_Zaliczeniowy.Services;
+﻿using StockMarketBackend.Controllers;
+using StockMarketBackend.Models;
+using StockMarketBackend.ModelsDto;
+using StockMarketBackend.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Moq;
 
-namespace Broker_Projekt_Zaliczeniowy.Tests
+namespace StockMarketBackend.Tests
 {
     public class TransactionControllerTests
     {

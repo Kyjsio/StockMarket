@@ -1,8 +1,0 @@
-<Solution>
-  <Project Path="Broker_Projekt_Zaliczeniowy/Broker_Projekt_Zaliczeniowy.csproj" />
-  <Project Path="frontend_broker/frontend_broker.esproj">
-    <Build />
-    <Deploy />
-  </Project>
-  <Project Path="Tests/Tests.csproj" />
-</Solution>

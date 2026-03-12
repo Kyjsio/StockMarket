@@ -1,11 +1,11 @@
-﻿//using Broker_Projekt_Zaliczeniowy.Controllers;
-//using Broker_Projekt_Zaliczeniowy.Models;
-//using Broker_Projekt_Zaliczeniowy.ModelsDto;
+﻿//using StockMarketBackend.Controllers;
+//using StockMarketBackend.Models;
+//using StockMarketBackend.ModelsDto;
 //using Microsoft.AspNetCore.Mvc;
 //using Microsoft.EntityFrameworkCore;
 
 
-//namespace Broker_Projekt_Zaliczeniowy.Tests
+//namespace StockMarketBackend.Tests
 //{
 //    public class AdminControllerTests
 //    {

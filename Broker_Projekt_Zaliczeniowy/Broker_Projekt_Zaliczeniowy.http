@@ -1,6 +1,0 @@
-@Broker_Projekt_Zaliczeniowy_HostAddress = http://localhost:5032
-
-GET {{Broker_Projekt_Zaliczeniowy_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
