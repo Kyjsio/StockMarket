@@ -1,11 +1,10 @@
-using StockMarketBackend.ModelsDto;
-using StockMarketBackend.Models;
-using StockMarketBackend.Services;
+
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi;
 using Microsoft.OpenApi.Models;
+using StockMarketBackend.Models;
+using StockMarketBackend.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -40,6 +39,7 @@ builder.Services.AddScoped<IUserContextService, UserContextService>();
 builder.Services.AddHttpClient<MarketDataService>();
 builder.Services.AddScoped<IAdminService, AdminService>();
 builder.Services.AddScoped<ITransactionService, TransactionService>();
+builder.Services.AddScoped<IWalletService, WalletService>();
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
