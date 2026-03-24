@@ -30,22 +30,23 @@ namespace StockMarketBackend.Services
             {
                 throw new KeyNotFoundException($"Nie znaleziono waloru: {ticker}");
             }
-
-            var latestMarketPrice = await _context.MarketData
-                .Where(m => m.AssetId == asset.Id)
-                .OrderByDescending(m => m.DataDate)
-                .Select(m => m.Close)
-                .FirstOrDefaultAsync();
-
             var currentPosition = account.Positions.FirstOrDefault(p => p.AssetId == asset.Id);
-            decimal currentPrice = latestMarketPrice > 0 ? latestMarketPrice : (currentPosition?.AverageCost ?? 0);
+            var latestMarketPrice = await _context.MarketData
+              .Where(m => m.AssetId == asset.Id)
+              .OrderByDescending(m => m.DataDate)
+              .Select(m => m.Close)
+              .FirstOrDefaultAsync();
+
+            decimal currentPrice = (latestMarketPrice > 0)
+                ? latestMarketPrice
+                : (currentPosition?.AverageCost ?? 0m);
 
             var dbTransactions = await _context.Transactions
-                .Where(t => t.AccountId == account.Id
-                            && t.AssetId == asset.Id
-                            && t.Type == "BUY")
-                .OrderByDescending(t => t.TransactionDate)
-                .ToListAsync();
+            .Where(t => t.AccountId == account.Id
+                && t.AssetId == asset.Id
+                && t.Type == "BUY")
+            .OrderByDescending(t => t.TransactionDate)
+            .ToListAsync();
 
             var transactionDtos = dbTransactions.Select(t =>
             {
@@ -57,7 +58,7 @@ namespace StockMarketBackend.Services
                 return new TransactionDto
                 {
                     Id = t.Id,
-                    Date = t.TransactionDate,
+                    Date = t.TransactionDate ?? DateTime.MinValue,
                     Type = t.Type,
                     Quantity = t.Quantity,
                     Price = t.Price,

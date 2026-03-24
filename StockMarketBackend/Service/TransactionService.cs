@@ -26,18 +26,19 @@ namespace StockMarketBackend.Services
                 .Where(t => t.AccountId == account.Id && t.Type == "SELL")
                 .Include(t => t.Asset)
                 .OrderByDescending(t => t.TransactionDate)
-                .Select(t => new StockTransactionDto
-                {
-                    Id = t.Id,
-                    Ticker = t.Asset.Ticker,
-                    CompanyName = t.Asset.FullName,
-                    Type = t.Type,
-                    Quantity = t.Quantity,
-                    Price = t.Price,
-                    TotalAmount = t.TotalAmount,
-                    Date = t.TransactionDate,
-                    Profit = t.Profit
-                })
+               .Select(t => new StockTransactionDto
+               {
+                   Id = t.Id,
+                   Ticker = t.Asset != null ? t.Asset.Ticker : "Brak",
+                   CompanyName = t.Asset != null ? t.Asset.FullName : "Brak",
+                   Type = t.Type,
+                   Quantity = t.Quantity, 
+                   Price = t.Price,
+                   TotalAmount = t.TotalAmount, 
+
+                   Date = t.TransactionDate ?? DateTime.MinValue,
+                   Profit = t.Profit ?? 0m
+               })
                 .ToListAsync();
         }
     }

@@ -42,7 +42,7 @@ namespace StockMarketBackend.Services
                 {
                     Id = u.Id,
                     Email = u.Email,
-                    CreatedAt = u.CreatedAt,
+                    CreatedAt = u.CreatedAt ?? DateTime.MinValue,
                     Balance = u.Account.Balance,
                     Role = u.Role
                 })
@@ -63,7 +63,7 @@ namespace StockMarketBackend.Services
             try
             {
                 await _context.SaveChangesAsync();
-                return (true, $"Użytkownik {user.Email} został usunięty", null);
+                return (true, $"Użytkownik {user.Email} został usunięty", string.Empty);
             }
             catch (Exception ex)
             {

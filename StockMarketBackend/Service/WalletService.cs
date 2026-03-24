@@ -113,10 +113,14 @@ public class WalletService : IWalletService
 
         return logs.Select(l =>
         {
-            decimal diff = Math.Abs(l.NewBalance - l.OldBalance);
-            string type = l.ActionType.ToUpper();
+            decimal diff = Math.Abs((l.NewBalance ?? 0) - (l.OldBalance ?? 0));
+            string type = l.ActionType?.ToUpper() ?? string.Empty;
 
-            var history = new WalletHistoryDto { Id = l.Id, Date = l.ChangeDate };
+            var history = new WalletHistoryDto
+            {
+                Id = l.Id,
+                Date = l.ChangeDate ?? DateTime.MinValue 
+            };
 
             if (type.Contains("DEPOSIT")) { history.Amount = diff; history.Title = "Zasilenie Konta"; history.OperationTag = "deposit"; }
             else if (type.Contains("WITHDRAW")) { history.Amount = -diff; history.Title = "Wypłata Środków"; history.OperationTag = "withdraw"; }
