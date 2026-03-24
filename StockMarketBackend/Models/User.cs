@@ -15,8 +15,9 @@ public partial class User
 
     public string? LastName { get; set; }
 
-    public DateTime CreatedAt { get; set; }
+    public DateTime? CreatedAt { get; set; }
+
+    public string? Role { get; set; }
 
     public virtual Account? Account { get; set; }
-    public string Role { get; set; } = "User";
 }
